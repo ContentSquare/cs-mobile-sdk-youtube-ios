@@ -32,6 +32,7 @@
 		22BD935E1D33818500CD57A5 /* SubscriptionsProfilePicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD935D1D33818500CD57A5 /* SubscriptionsProfilePicCell.swift */; };
 		22BD93601D3394A200CD57A5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD935F1D3394A200CD57A5 /* User.swift */; };
 		22BD93621D33953700CD57A5 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD93611D33953700CD57A5 /* Playlist.swift */; };
+		4A460DDB1EBA5D9B00498E0B /* ContentSquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A460DDA1EBA5D9B00498E0B /* ContentSquare.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		22BD935D1D33818500CD57A5 /* SubscriptionsProfilePicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubscriptionsProfilePicCell.swift; path = "Supporting views/SubscriptionsProfilePicCell.swift"; sourceTree = "<group>"; };
 		22BD935F1D3394A200CD57A5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Model/User.swift; sourceTree = "<group>"; };
 		22BD93611D33953700CD57A5 /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Playlist.swift; path = Model/Playlist.swift; sourceTree = "<group>"; };
+		4A460DDA1EBA5D9B00498E0B /* ContentSquare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContentSquare.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/ContentSquare-deppdejtrvsharddkawatltrtqys/Build/Products/Debug-iphonesimulator/ContentSquare.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A460DDB1EBA5D9B00498E0B /* ContentSquare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +141,7 @@
 			children = (
 				22AA44651D1302FB00CA6185 /* YouTube */,
 				22AA44641D1302FB00CA6185 /* Products */,
+				4A460DD91EBA5D9B00498E0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,6 +166,14 @@
 				2241B9341D22821600A8167B /* Helpers */,
 			);
 			path = YouTube;
+			sourceTree = "<group>";
+		};
+		4A460DD91EBA5D9B00498E0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A460DDA1EBA5D9B00498E0B /* ContentSquare.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +208,6 @@
 				TargetAttributes = {
 					22AA44621D1302FB00CA6185 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = XWX6323S35;
 						DevelopmentTeamName = "Haik Aslanyan (Personal Team)";
 						ProvisioningStyle = Automatic;
 					};
@@ -370,11 +381,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: haik@mexonis.com (GZ4E237K2F)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = YouTube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mexonis.YouTube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -386,11 +399,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: haik@mexonis.com (GZ4E237K2F)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = YouTube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mexonis.YouTube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
